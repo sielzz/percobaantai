@@ -20,8 +20,6 @@ from PrimeMusic.utils.database import (add_served_chat,
                                        get_userss, is_on_off,
                                        is_served_private_chat)
 from PrimeMusic.utils.decorators.language import LanguageStart
-from PrimeMusic.utils.inline import (help_pannel, private_panel,
-                                     start_pannel)
 
 loop = asyncio.get_running_loop()
 
