@@ -239,8 +239,8 @@ stream_4 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** [{0}]({1})\n⏰ *
 # Tombol Sebaris
 
 #Tombol Umum
-CLOSE_BUTTON : "🗑 Tutup"
-CLOSEMENU_BUTTON : "🗑 Tutup Menu"
+CLOSE_BUTTON : "ᴛᴜᴛᴜᴘ"
+CLOSEMENU_BUTTON : "ᴛᴜᴛᴜᴘ"
 BACK_BUTTON : "⬅ Kembali"
 UNBAN_BUTTON : "🗑 Unban Asisten"
 
@@ -278,8 +278,8 @@ P_B_4 : "🎵 Putar Playlist"
 
 #Daftar Putar
 PL_B_1 : "🚀 Putar Daftar Putar"
-PL_B_2 : "✚ Daftar Putar"
-PL_B_3 : "🗂 Menu"
+PL_B_2 : "ᴘʟᴀʏʟɪsᴛ"
+PL_B_3 : "ᴍᴇɴᴜ"
 PL_B_4 : "📡 Mode Putar"
 PL_B_5 : "🔄 Hapus Seluruh Daftar Putar"
 PL_B_6 : "↗️ Hapus Daftar Putar"
