@@ -18,7 +18,6 @@ from PrimeMusic.utils.decorators.language import languageCB
 from PrimeMusic.utils.formatters import seconds_to_min
 from PrimeMusic.utils.inline.play import (panel_markup_1,
                                           panel_markup_2,
-                                          panel_markup_3,
                                           stream_markup,
                                           telegram_markup)
 from PrimeMusic.utils.stream.autoclear import auto_clean
@@ -84,15 +83,11 @@ async def del_back_playlist(client, CallbackQuery, _):
             buttons = panel_markup_2(_, videoid, chat_id)
         if pages == 2:
             buttons = panel_markup_1(_, videoid, chat_id)
-        if pages == 1:
-            buttons = panel_markup_3(_, videoid, chat_id)
     if state == "Back":
         if pages == 2:
             buttons = panel_markup_2(_, videoid, chat_id)
         if pages == 1:
             buttons = panel_markup_1(_, videoid, chat_id)
-        if pages == 0:
-            buttons = panel_markup_3(_, videoid, chat_id)
     try:
         await CallbackQuery.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(buttons)
