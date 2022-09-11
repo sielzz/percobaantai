@@ -34,7 +34,7 @@ async def markup_panel(client, CallbackQuery: CallbackQuery, _):
     callback_request = callback_data.split(None, 1)[1]
     videoid, chat_id = callback_request.split("|")
     chat_id = CallbackQuery.message.chat.id
-    buttons = panel_markup_1(_, videoid, chat_id, played, dur)
+    buttons = panel_markup_1(_, videoid, chat_id,)
     try:
         await CallbackQuery.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(buttons)
