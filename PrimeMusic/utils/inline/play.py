@@ -216,15 +216,8 @@ def slider_markup(
 ## Cpanel Markup
 
 
-def panel_markup_1(_, videoid, chat_id, played, dur):
-    bar = random.choice(selections)
+def panel_markup_1(_, videoid, chat_id):
     buttons = [
-        [
-            InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
-            )
-        ],
         [
             InlineKeyboardButton(
                 text="▷",
