@@ -33,8 +33,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
+                text="ᴄʜᴀɴɴᴇʟ", url="https//t.me/Buduh",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
@@ -79,8 +78,7 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
+                text="ᴄʜᴀɴɴᴇʟ", url="https//t.me/Buduh",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
@@ -235,18 +233,11 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🔇", callback_data=f"ADMIN Mute|{chat_id}"
+                text=_["PL_B_2"],
+                callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="⌘",
-                callback_data=f"ADMIN Shuffle|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⇄", callback_data=f"ADMIN Loop|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="🔊",
-                callback_data=f"ADMIN Unmute|{chat_id}",
+                text="ᴅᴏɴᴀᴛᴇ", url="https//t.me/IDnyaAL",
             ),
         ],
         [
@@ -271,28 +262,21 @@ def panel_markup_2(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⋘ 30",
-                callback_data=f"ADMIN 3|{chat_id}",
+                text="🔇 ᴍᴜᴛᴇ", callback_data=f"ADMIN Mute|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="⋘ 10",
-                callback_data=f"ADMIN 1|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="10 ⋙",
-                callback_data=f"ADMIN 2|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="30 ⋙",
-                callback_data=f"ADMIN 4|{chat_id}",
+                text="ᴜɴᴍᴜᴛᴇ 🔊",
+                callback_data=f"ADMIN Unmute|{chat_id}",
             ),
         ],
         [
+
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url="https//t.me/Buduh",
+                text="sʜᴜꜰꜰʟᴇ",
+                callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="ᴅᴏɴᴀᴛᴇ", url="https//t.me/IDnyaAL",
+                text="ʟᴏᴏᴘ", callback_data=f"ADMIN Loop|{chat_id}"
             ),
         ],
         [
