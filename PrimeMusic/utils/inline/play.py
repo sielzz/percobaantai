@@ -33,8 +33,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url="https//t.me/Buduh",
-            ),
+                text="ᴄʜᴀɴɴᴇʟ", url=f"https//t.me/Buduh"),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
@@ -78,8 +77,7 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url="https//t.me/Buduh",
-            ),
+                text="ᴄʜᴀɴɴᴇʟ", url=f"https//t.me/Buduh"),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
@@ -214,9 +212,14 @@ def slider_markup(
 ## Cpanel Markup
 
 
-def panel_markup_1(_, videoid, chat_id):
+def panel_markup_1(_, videoid, chat_id, played, dur):
+    bar = random.choice(selections)
     buttons = [
         [
+            InlineKeyboardButton(
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
+            )
             InlineKeyboardButton(
                 text="▷",
                 callback_data=f"ADMIN Resume|{chat_id}",
@@ -237,8 +240,7 @@ def panel_markup_1(_, videoid, chat_id):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="ᴅᴏɴᴀᴛᴇ", url="https//t.me/IDnyaAL",
-            ),
+                text="ᴅᴏɴᴀᴛᴇ", url=f"https//t.me/IDnyaAL"),
         ],
         [
             InlineKeyboardButton(
