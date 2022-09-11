@@ -235,24 +235,24 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🔇 ᴍᴜᴛᴇ", callback_data=f"ADMIN Mute|{chat_id}"
+                text="🔇", callback_data=f"ADMIN Mute|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="sʜᴜꜰꜰʟᴇ",
+                text="⌘",
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="ʟᴏᴏᴘ", callback_data=f"ADMIN Loop|{chat_id}"
+                text="⇄", callback_data=f"ADMIN Loop|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="ᴜɴᴍᴜᴛᴇ 🔊",
+                text="",
                 callback_data=f"ADMIN Unmute|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="❮",
-                callback_data=f"Pages Back|2|{videoid}|{chat_id}",
+                callback_data=f"Pages Back|1|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
                 text="ʙᴀᴄᴋ",
@@ -298,7 +298,7 @@ def panel_markup_2(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text="❮",
-                callback_data=f"Pages Back|1|{videoid}|{chat_id}",
+                callback_data=f"Pages Back|2|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
                 text="ʙᴀᴄᴋ",
