@@ -235,26 +235,24 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⊲⊲ 10",
-                callback_data=f"ADMIN 1|{chat_id}",
+                text="🔇 ᴍᴜᴛᴇ", callback_data=f"ADMIN Mute|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="⊲⊲ 30",
-                callback_data=f"ADMIN 3|{chat_id}",
+                text="sʜᴜꜰꜰʟᴇ",
+                callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="10 ⊳⊳",
-                callback_data=f"ADMIN 2|{chat_id}",
+                text="ʟᴏᴏᴘ", callback_data=f"ADMIN Loop|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="30 ⊳⊳",
-                callback_data=f"ADMIN 4|{chat_id}",
+                text="ᴜɴᴍᴜᴛᴇ 🔊",
+                callback_data=f"ADMIN Unmute|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="❮",
-                callback_data=f"Pages Back|0|{videoid}|{chat_id}",
+                callback_data=f"Pages Back|2|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
                 text="ʙᴀᴄᴋ",
@@ -262,7 +260,7 @@ def panel_markup_1(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="❯",
-                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
+                callback_data=f"Pages Forw|2|{videoid}|{chat_id}",
             ),
         ],
     ]
@@ -273,20 +271,28 @@ def panel_markup_2(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🔇 ᴍᴜᴛᴇ", callback_data=f"ADMIN Mute|{chat_id}"
+                text="⋘ 30",
+                callback_data=f"ADMIN 3|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="ᴜɴᴍᴜᴛᴇ 🔊",
-                callback_data=f"ADMIN Unmute|{chat_id}",
+                text="⋘ 10",
+                callback_data=f"ADMIN 1|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="10 ⋙",
+                callback_data=f"ADMIN 2|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="30 ⋙",
+                callback_data=f"ADMIN 4|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="sʜᴜꜰꜰʟᴇ",
-                callback_data=f"ADMIN Shuffle|{chat_id}",
+                text="ᴄʜᴀɴɴᴇʟ", url="https//t.me/Buduh",
             ),
             InlineKeyboardButton(
-                text="ʟᴏᴏᴘ", callback_data=f"ADMIN Loop|{chat_id}"
+                text="ᴅᴏɴᴀᴛᴇ", url="https//t.me/IDnyaAL",
             ),
         ],
         [
