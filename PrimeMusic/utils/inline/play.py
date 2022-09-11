@@ -33,7 +33,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=f"https//t.me/Buduh"),
+                text=_["P_C_1"], url=f"https//t.me/Buduh"),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
@@ -77,7 +77,7 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=f"https//t.me/Buduh"),
+                text=_["P_C_1"], url=f"https//t.me/Buduh"),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
@@ -242,7 +242,7 @@ def panel_markup_1(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="ᴅᴏɴᴀᴛᴇ", url=f"https//t.me/IDnyaAL"),
+                text=_["P_C_2"], url=f"https//t.me/IDnyaAL"),
         ],
         [
             InlineKeyboardButton(
