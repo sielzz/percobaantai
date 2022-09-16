@@ -30,7 +30,7 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "5493577153:AAEbECcOYTktERh7Ssd9SLxS31LN-x5qYuc",
+        "value": "5363549359:AAFUdFU61S53SAu7N3ZYakO4KAHrjSuJd-U",
         "required": true
       },
       "MONGO_DB_URI": {
@@ -40,7 +40,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "Hito",
+        "value": "Niskala",
         "required": true
       },
       "OWNER_ID": {
@@ -65,7 +65,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "-1001665056669",
+        "value": "-1001735372803",
         "required": true
       },
       "UPSTREAM_REPO": {
