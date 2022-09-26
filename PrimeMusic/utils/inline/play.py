@@ -240,7 +240,7 @@ def panel_markup_1(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text=_["P_C_2"], 
-                url=f"https://t.me/IDnyaAL",
+                url=f"https://t.me/envparse",
             ),
         ],
         [
