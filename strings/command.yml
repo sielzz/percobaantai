@@ -11,11 +11,11 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping"]
-START_COMMAND : ["start"]
+PING_COMMAND : ["mping"]
+START_COMMAND : ["mstart"]
 HELP_COMMAND : ["mhelp"]
 SETTINGS_COMMAND : ["msettings"]
-RELOAD_COMMAND : ["reload"]
+RELOAD_COMMAND : ["mreload"]
 GSTATS_COMMAND : ["gstats"]
 STATS_COMMAND : ["system"]
 LANGUAGE_COMMAND : ["mlang", "language"]
@@ -55,7 +55,7 @@ RESTART_COMMAND : ["restart"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
+ADDSUDO_COMMAND : ["maddsudo"]
 DELSUDO_COMMAND : ["delsudo"]
 SUDOUSERS_COMMAND : ["sudolist"]
 
