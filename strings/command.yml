@@ -14,11 +14,11 @@
 PING_COMMAND : ["mping"]
 START_COMMAND : ["mstart"]
 HELP_COMMAND : ["mhelp"]
-SETTINGS_COMMAND : ["msettings"]
-RELOAD_COMMAND : ["mreload"]
+SETTINGS_COMMAND : ["settings"]
+RELOAD_COMMAND : ["reload"]
 GSTATS_COMMAND : ["gstats"]
 STATS_COMMAND : ["system"]
-LANGUAGE_COMMAND : ["mlang", "language"]
+LANGUAGE_COMMAND : ["lang", "language"]
 
 # Play Commands
 PLAY_COMMAND : ["p", "play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
