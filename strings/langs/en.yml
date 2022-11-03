@@ -144,7 +144,7 @@ cplay_5 : "Hanya Channel yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** Channel[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Channel:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke Channel itu lalu coba sambungkan dengan `/channelplay linked`"
 
 #Bermain
-play_1 : "**🔄 Processing!**"
+play_1 : "**🔄 Sedang Memproses!**"
 play_2 : "**🏷 Mode Putar Chanell**\n\n🔄 Memproses Query... Harap Tunggu!\n**Saluran Tertaut:** {0}"
 play_3 : "Gagal Memproses Query!"
 play_4 : "🖇 **Admin Only Play**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
@@ -241,11 +241,11 @@ stream_4 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** [{0}]({1})\n⏰ *
 #Tombol Umum
 CLOSE_BUTTON : "ᴛᴜᴛᴜᴘ"
 CLOSEMENU_BUTTON : "ᴛᴜᴛᴜᴘ"
-BACK_BUTTON : "⬅ Kembali"
-UNBAN_BUTTON : "🗑 Unban Asisten"
+BACK_BUTTON : "ᴋᴇᴍʙᴀʟɪ"
+UNBAN_BUTTON : "🗑 ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ"
 
 #Lirik
-L_B_1 : "🚀 Periska Lyrics"
+L_B_1 : "🚀 ᴘᴇʀɪᴋsᴀ ʟʏʀɪᴄs"
 
 # Awal
 S_B_1 : "🗒 Perintah"
@@ -279,10 +279,10 @@ P_C_1 : "ᴄʜᴀɴɴᴇʟ"
 P_C_2 : "ᴅᴏɴᴀᴛᴇ"
 
 #Daftar Putar
-PL_B_1 : "🚀 Putar Daftar Putar"
+PL_B_1 : "🚀 ᴘᴜᴛᴀʀ ᴅᴀꜰᴛᴀʀ ᴘᴜᴛᴀʀ"
 PL_B_2 : "ᴘʟᴀʏʟɪsᴛ"
 PL_B_3 : "ᴍᴇɴᴜ"
-PL_B_4 : "📡 Mode Putar"
+PL_B_4 : "📡 ᴍᴏᴅᴇ ᴘᴜᴛᴀʀ"
 PL_B_5 : "🔄 Hapus Seluruh Daftar Putar"
 PL_B_6 : "↗️ Hapus Daftar Putar"
 PL_B_7 : "❗️ Ya, saya yakin. Hapus saja"
