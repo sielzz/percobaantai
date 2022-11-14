@@ -80,7 +80,7 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text=_["P_C_1"], 
-                url=f"https://t.me/Buduh",
+                url=f"https://t.me/punyaionnibos",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
