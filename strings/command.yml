@@ -56,7 +56,7 @@ RESTART_COMMAND : ["restart"]
 
 # Sudo Command
 ADDSUDO_COMMAND : ["maddsudo"]
-DELSUDO_COMMAND : ["delsudo"]
+DELSUDO_COMMAND : ["mdelsudo"]
 SUDOUSERS_COMMAND : ["sudolist"]
 
 #Broadcast 
