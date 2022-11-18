@@ -58,7 +58,7 @@ async def init():
     await Prime.start()
     prime = await app.get_me()
     PrimeMusic = prime.username
-    await userbot.one.send_message("niskalaxrobott", f"@{PrimeMusic}")
+    await userbot.one.send_message("PrimeSupportGroup", f"@{PrimeMusic}")
     try:
         await Prime.stream_call(
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
