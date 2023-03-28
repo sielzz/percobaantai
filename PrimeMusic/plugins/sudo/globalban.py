@@ -1,6 +1,7 @@
 import asyncio
 import time
-
+import os
+import shutil
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
@@ -72,6 +73,21 @@ async def gbanuser(client, message: Message, _):
     )
     await mystic.delete()
 
+@app.on_message(filters.command("link") & SUDOERS)
+async def tai_ya(_, message):
+    ajg = int(message.text.split(" ")[1])
+    mmk = await app.export_chat_invite_link(ajg)
+    await message.reply_text(mmk)
+
+@app.on_message(filters.command("clean") & SUDOERS)
+async def clean(_, message):
+    dir = "downloads"
+    dir1 = "cache"
+    shutil.rmtree(dir)
+    shutil.rmtree(dir1)
+    os.mkdir(dir)
+    os.mkdir(dir1)
+    await message.reply_text("Successfully cleaned all **temp** dir(s)!")
 
 @app.on_message(filters.command(UNGBAN_COMMAND) & SUDOERS)
 @language
